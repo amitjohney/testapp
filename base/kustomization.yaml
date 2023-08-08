@@ -6,6 +6,6 @@ resources:
 - pod.yaml
 - svc.yaml
 configMapGenerator:
-  name: config
+- name: config
   files:
   - config.properties
