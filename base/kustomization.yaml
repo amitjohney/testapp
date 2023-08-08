@@ -7,5 +7,6 @@ resources:
 - svc.yaml
 configMapGenerator:
 - name: config
+  namespace: default
   files:
   - config.properties
