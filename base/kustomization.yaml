@@ -5,6 +5,7 @@ metadata:
 resources:
 - pod.yaml
 - svc.yaml
+nameSuffix: pod
 configMapGenerator:
 - name: config
   namespace: default
