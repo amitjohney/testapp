@@ -11,6 +11,6 @@ spec:
       image: amitkumarjo1994/testimage
       envFrom:
         - configMapRef:
-            name: configpod
+            name: config
   imagePullSecrets:
     - name: secretregistry
