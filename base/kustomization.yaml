@@ -10,4 +10,4 @@ configMapGenerator:
 - name: config
   namespace: default
   literals:
-  - choice=red
+  - choice=green
