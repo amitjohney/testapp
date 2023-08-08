@@ -9,5 +9,5 @@ nameSuffix: pod
 configMapGenerator:
 - name: config
   namespace: default
-  files:
-  - config.properties
+  data:
+    choice: red
