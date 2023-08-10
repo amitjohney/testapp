@@ -6,7 +6,6 @@ resources:
 - pod.yaml
 - svc.yaml
 - cm.yaml
-namePrefix: testing
 
 replicas:
   - name: testdeployment
