@@ -4,4 +4,4 @@ metadata:
   namespace: default
   name: config
 data:
-  choice: blue
+  choice: red
