@@ -8,4 +8,8 @@ resources:
 - cm.yaml
 namePrefix: testing
 
+replicas:
+  - name: testdeployment
+    count: 2
+
 
